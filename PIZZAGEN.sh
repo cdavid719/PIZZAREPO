@@ -47,9 +47,9 @@ printf "\n===============================\n"
 printf "===============================\n"
 
     case $ntwo in
-	[yY]*)
+	[yY])
        	;;
-        [nN]*)
+        [nN])
        echo "See you again!"
        exit;;
       *)
@@ -139,10 +139,10 @@ function anotherp
 {
 read -p "Do you want another pizza? (y/n) " nthree
 case $nthree in 
-   [nN]*)
+   [nN])
    echo "Lets continue to your order summary!"
 ntwo="n";;
-   [yY]*)
+   [yY])
 	;;
        *)
 	echo "-----"
